@@ -11,6 +11,7 @@ public class ExceptionTest01 {
 			System.out.println(sum);
 		} catch(Exception e) {
 			System.out.println("0 나누기 에러 발생 > 다시 확인");
+			e.printStackTrace(); // 에러 코드가 찍힘
 		} finally {
 			System.out.println("에러와 상관 없이 결국 프로그램은 실행된다.");
 		}
